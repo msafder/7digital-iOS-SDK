@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
 
   s.preserve_path = 'StaticLib/*.a'
   s.ios.vendored_library = 'StaticLib/libSevenDigital.a'
+  s.module_map = "SevenDigital.modulemap"
 
   s.library   = 'xml2'
 

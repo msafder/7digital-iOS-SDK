@@ -1,0 +1,6 @@
+framework module SevenDigital {
+  header "Classes/ios/SevenDigital.h"
+
+  export *
+  module * { export * }
+}
